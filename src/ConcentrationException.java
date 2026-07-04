@@ -6,7 +6,7 @@ public class ConcentrationException extends Exception{
         super(msg);
         this.c = c;
     }
-    public int getT(){
+    public int getC(){
         return c;
     }
 }

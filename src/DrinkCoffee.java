@@ -1,6 +1,6 @@
 public class DrinkCoffee {
 
-    void drinCoffee(Coffee coffee) throws TemperatureException, ConcentrationException {
+    void drinkCoffee(Coffee coffee) throws TemperatureException, ConcentrationException {
         if (coffee.getTemp() > 65) {
             throw new TemperatureException(coffee.getTemp(), "Cafeaua e prea fierbinte. O aruncam!");
         } else {
